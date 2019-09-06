@@ -5,4 +5,7 @@ The pre-processing pipeline includes:
 - Select adaptive boudning box to include the main part of the chest radiographs
 - Resize image to 2048 * 2048
 - Apply Sauvola filter to recognize the annotation label on the image and blur the text with median filter
+- Contrast-limited adaptive histogram equalization
+- Anisotropic denoising
+
 
